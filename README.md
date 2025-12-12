@@ -12,17 +12,17 @@
 
 ## Clonar el repositorio
 
-git clone https://github.com/ALINFINITY/PRY_SALUDFAST_FRONT.git
+`git clone https://github.com/ALINFINITY/PRY_SALUDFAST_FRONT.git`
 
 ## Ingresar al proyecto
 
-cd /PRY_SALUDFAST_FRONT
+`cd /PRY_SALUDFAST_FRONT`
 
 ##  Instalar dependencias
-npm install
+`npm install`
 
 ##  Ejecutar 
-npm run dev
+`npm run dev`
 
 # 🛠️ Tech Stack
 
