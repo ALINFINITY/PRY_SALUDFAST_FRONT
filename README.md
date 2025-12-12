@@ -2,7 +2,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/960px-React-icon.svg.png?20220125121207" width="120" />
 </p>
 
-<h1 align="center">SALUDFast Frontend</h1>
+<h1 align="center">SALUDFAST Frontend</h1>
 
 ---
 # Integrantes
