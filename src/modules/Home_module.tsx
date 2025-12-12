@@ -6,7 +6,7 @@ export const HomeModule = () => {
   const [name, setName] = useState("");
   const [show, setShow] = useState(false);
 
-  const showName = () => <>{show && <h2>{name}</h2>}</>;
+  const showName = () => <>{show && <h2>Bienvenido {name}</h2>}</>;
 
   return (
     <>
