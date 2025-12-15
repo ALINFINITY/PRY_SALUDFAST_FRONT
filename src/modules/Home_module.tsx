@@ -1,22 +1,26 @@
 import { Button } from "primereact/button";
-import { InputText } from "primereact/inputtext";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const HomeModule = () => {
-  const [name, setName] = useState("");
-  const [show, setShow] = useState(false);
-
-  const showName = () => <>{show && <h2>Bienvenido {name}</h2>}</>;
+  const navigate = useNavigate();
 
   return (
     <>
-      <h1>Gestion de citas medicas SALUTFAST</h1>
-      {showName()}
-      <Button onClick={() => setShow(!show)} label="Drop" severity="success" />
-      <InputText
-        placeholder="Tu nombre"
-        onChange={(e) => setName(e.target.value)}
-      />
+      <h1>Gestión de citas médicas SALUTFAST</h1>
+      
+      <div className="flex gap-3 justify-content-center mt-4">
+        <Button 
+          label="Iniciar sesión" 
+          icon="pi pi-sign-in"
+          onClick={() => navigate("/login")} 
+        />
+        <Button 
+          label="Registrarse" 
+          icon="pi pi-user-plus"
+          severity="success"
+          onClick={() => navigate("/register")} 
+        />
+      </div>
     </>
   );
 };
